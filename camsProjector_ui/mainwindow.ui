@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>569</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>341</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>General</string>
+     </attribute>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>311</width>
+        <height>293</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="noImagesLabel">
+         <property name="text">
+          <string>Images:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="noImagesLineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="heightLabel">
+         <property name="text">
+          <string>Height:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="heightLineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="widthLabel">
+         <property name="text">
+          <string>Width:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="widthLineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="leftSlitLimLabel">
+         <property name="text">
+          <string>LeftSlitLim:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="leftSlitLimLineEdit"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="rightSlitLimLabel">
+         <property name="text">
+          <string>RightSlitLim:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="rightSlitLimLineEdit"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="slitThicknessLabel">
+         <property name="text">
+          <string>Slit Thickness</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="slitThicknessLineEdit"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="waitTimeLabel">
+         <property name="text">
+          <string>Wait Time:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="waitTimeLineEdit"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="captureNameLabel">
+         <property name="text">
+          <string>Capture Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="captureNameLineEdit"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="captureFormatLabel">
+         <property name="text">
+          <string>Capture Format:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="captureFormatLineEdit"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Advanced</string>
+     </attribute>
+     <widget class="QWidget" name="formLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>311</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="brightnessLabel">
+         <property name="text">
+          <string>Brightness</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="brightnessLineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="autoExposureLabel">
+         <property name="text">
+          <string>Auto Exposure</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="autoExposureLineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="sharpnessLabel">
+         <property name="text">
+          <string>Sharpness</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="sharpnessLineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="shutterLabel">
+         <property name="text">
+          <string>Shutter</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="shutterLineEdit"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="gainLabel">
+         <property name="text">
+          <string>Gain</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="gainLineEdit"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="frameRateLineEdit"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>230</y>
+      <width>121</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start Capture</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>260</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>             Press any key to exit.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>569</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
